@@ -4,6 +4,10 @@
 
 В данном исследовании производится сравнение обученной модели yolo11m_custom100.pt с моделью из статьи ниже: [Ссылка](https://cyberleninka.ru/article/n/rossiyskaya-baza-izobrazheniy-avtodorozhnyh-znakov/viewer)
 
+Пример детектирования дорожных знаков продемонстрирован ниже на изображении:
+
+![autosave21_01_2013_10_09_44_0](https://github.com/user-attachments/assets/54ded67a-00b9-49f5-820c-965849b83c4c)
+
 ____
 
 # Результаты валидации
@@ -20,6 +24,15 @@ prohibitory | 620 | 684  | 0.841 | 0.901 | 0.919 | 0.561
 
 Roc-auc на валидационной выборке:
 <img width="865" height="688" alt="image" src="https://github.com/user-attachments/assets/10881d8e-38a9-4bc3-8dd3-0dbcde1efd70" />
+
+Class | Results from the article | yolo11m_custom100.pt
+----------|-------|------
+blue_border | 0.83 | 0.92
+blue_rect | 0.76 | 0.97
+danger | 0.86 | 0.97
+main_road | 0.9 | 0.97
+mandatory | 0.8 | 0.95
+prohibitory | 0.72 | 0.95
 
 Ссылка на результаты обучения и валидации модели: [Ссылка](https://github.com/neekeetoz/yolo11/tree/main/runs/detect/train)
 
