@@ -1,6 +1,13 @@
 # YOLO11m
 
-Модель yolo11m обучена на датасете rtsd-d3 в течение 100 эпох
+Модель yolo11m обучена на датасете RTSD-D3 в течение 100 эпох.
+
+Предварительно перед обучением модели производилась нормализация разметки дорожных знаков под формат обучения модели yolo11.
+
+Модель yolo11m_custom100.pt обучалась на предварительно обученной модели yolo11m.pt, которая содержит в себе баланс между точность обнаружения дорожного знака и скоростью распознавания на видео.
+
+<img width="1016" height="456" alt="image" src="https://github.com/user-attachments/assets/436d7244-fccb-4929-8323-c69ad3f92419" />
+
 
 В данном исследовании производится сравнение обученной модели yolo11m_custom100.pt с моделью из статьи ниже: [Ссылка](https://cyberleninka.ru/article/n/rossiyskaya-baza-izobrazheniy-avtodorozhnyh-znakov/viewer)
 
@@ -25,7 +32,7 @@ prohibitory | 620 | 684  | 0.841 | 0.901 | 0.919 | 0.561
 Roc-auc на валидационной выборке:
 <img width="865" height="688" alt="image" src="https://github.com/user-attachments/assets/10881d8e-38a9-4bc3-8dd3-0dbcde1efd70" />
 
-Сравнение с результатами обучения модели из статьи:
+Сравнение с результатами обучения модели из статьи на выборке RTSD-D3:
 
 Class | Results from the article | yolo11m_custom100.pt
 ----------|-------|------
