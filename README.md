@@ -6,12 +6,15 @@ ____
 
 # Валидация
 
- № Class | Images | Instances | P | R | mAP50 | mAP50-95
- ----- |----------|-------|------
-1 | Поэлементные преобразования изображений | ✅ | [Ссылка](https://github.com/neekeetoz/Image-Processing-Systems/blob/main/%D0%A1%D0%9E%D0%98_%D0%9B%D0%A01.ipynb) |
-2 | Фильтрация изображений |  ✅ | [Ссылка](https://github.com/neekeetoz/Image-Processing-Systems/blob/main/%D0%A1%D0%9E%D0%98_%D0%9B%D0%A02.ipynb) |
-3 | Обработка бинарных изображений. Морфология |  ✅ | [Ссылка](https://github.com/neekeetoz/Image-Processing-Systems/blob/main/%D0%A1%D0%9E%D0%98_%D0%9B%D0%A03.ipynb) |
-4 | Выделение контуров на изображениях | ✅  | [Ссылка](https://github.com/neekeetoz/Image-Processing-Systems/blob/main/%D0%A1%D0%9E%D0%98_%D0%9B%D0%A04.ipynb) |
+ № | Class | Images | Instances | P | R | mAP50 | mAP50-95
+ ----- |----------|-------|------|------|------|------|------
+all | 3022 | 4826 | 0.863 | 0.863 | 0.863 | 0.863 | 0.863 |
+blue_border | 431 |  474 | 0.877 | 0.863 | 0.863 | 0.863 | 0.863 |
+blue_rect | 1393 |  2085 | 0.85 | 0.863 | 0.863 | 0.863 | 0.863 |
+danger | 594 | 651  | 0.893 | 0.863 | 0.863 | 0.863 | 0.863 |
+main_road | 422 | 431  | 0.862 | 0.863 | 0.863 | 0.863 | 0.863 |
+mandatory | 408 | 501  | 0.855 | 0.863 | 0.863 | 0.863 | 0.863 |
+prohibitory | 620 | 684  | 0.841 | 0.863 | 0.863 | 0.863 | 0.863 |
 
 
 Roc-auc на валидационной выборке:
