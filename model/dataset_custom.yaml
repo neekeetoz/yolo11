@@ -1,0 +1,6 @@
+train: C:/Users/Nikita/PycharmProjects/yolo11m/data/train
+val: C:/Users/Nikita/PycharmProjects/yolo11m/data/val
+
+nc: 6
+
+names: ["blue_border","blue_rect","danger","main_road","mandatory","prohibitory"]
