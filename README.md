@@ -1,10 +1,13 @@
 # YOLO11m
 
-Модель yolo11m обучена на датасете rtsd-d3 в 100 эпох
+Модель yolo11m обучена на датасете rtsd-d3 в течение 100 эпох
+
+В данном исследовании производится сравнение обученной модели yolo11m_custom100.pt с моделью из статьи ниже:
+https://cyberleninka.ru/article/n/rossiyskaya-baza-izobrazheniy-avtodorozhnyh-znakov/viewer
 
 ____
 
-# Валидация
+# Результаты валидации
 
 Class | Images | Instances | P | R | mAP50 | mAP50-95
 ----------|-------|------|------|------|------|------
@@ -19,5 +22,12 @@ prohibitory | 620 | 684  | 0.841 | 0.901 | 0.919 | 0.561
 
 Roc-auc на валидационной выборке:
 <img width="865" height="688" alt="image" src="https://github.com/user-attachments/assets/10881d8e-38a9-4bc3-8dd3-0dbcde1efd70" />
+
+Class | Ссылка на файл
+----------|-------
+Результаты | [Ссылка](https://github.com/neekeetoz/yolo11/tree/main/runs/detect/train)
+
 Ссылка на папку с моделью, исходными данными и результатами детектирования по видео:
 https://disk.yandex.ru/d/KPygXiOIxa1qjQ
+
+
