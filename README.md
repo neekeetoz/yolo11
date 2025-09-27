@@ -25,6 +25,8 @@ prohibitory | 620 | 684  | 0.841 | 0.901 | 0.919 | 0.561
 Roc-auc на валидационной выборке:
 <img width="865" height="688" alt="image" src="https://github.com/user-attachments/assets/10881d8e-38a9-4bc3-8dd3-0dbcde1efd70" />
 
+Сравнение с результатами обучения модели из статьи:
+
 Class | Results from the article | yolo11m_custom100.pt
 ----------|-------|------
 blue_border | 0.83 | 0.92
